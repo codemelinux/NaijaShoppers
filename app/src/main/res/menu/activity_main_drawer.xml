@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/ic_categories"
+            android:title="All Categories" />
+        <item
+            android:id="@+id/nav_featured_products"
+            android:icon="@drawable/ic_fproducts"
+            android:title="Featured Products" />
+        <item
+            android:id="@+id/nav_latest_products"
+            android:icon="@drawable/ic_categories_bookmark_black_24dp"
+            android:title="Latest Products" />
+        <item
+            android:id="@+id/nav_todays_deal"
+            android:icon="@drawable/ic_tdeal"
+            android:title="Todays Deal" />
+        <item
+            android:id="@+id/nav_all_brands"
+            android:icon="@drawable/ic_allbrand"
+            android:title="All Brands" />
+        <item
+            android:id="@+id/nav_all_vendors"
+            android:icon="@drawable/ic_allvendors"
+            android:title="All Vendors" />
+        <item
+            android:id="@+id/nav_blogs"
+            android:icon="@drawable/ic_blogs"
+            android:title="Blogs" />
+        <item
+            android:id="@+id/nav_store_locator"
+            android:icon="@drawable/ic_store"
+            android:title="Store Locator" />
+
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_contacts_black_24dp"
+            android:title="Contact" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_about_us"
+            android:title="About Us" />
+
+    </group>
+</menu>
